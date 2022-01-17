@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    padding-top: 34px;
+    padding-bottom: 10px;
+    background: linear-gradient( 109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+}
+
+.container {
+    color: black;
+    font-weight: 500;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="tel"],
+.container input[type="email"],
+textarea {
+    border: none;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 280px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.container input[type="text"]:focus,
+.container input[type="password"]:focus,
+.container input[type="tel"]:focus,
+.container input[type="email"]:focus,
+textarea:focus {
+    width: 280px;
+    border-color: #fdbb2d;
+}
+
+.container input[type="submit"] {
+    border: none;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(156, 252, 248, 1);
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #0088a9;
+}
+
+label {
+    text-align: center;
+    padding-left: 462px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#bs {
+    background: none;
+    border: 2px solid #3498db;
+    border-radius: 35px;
+    padding: 10px;
+}
